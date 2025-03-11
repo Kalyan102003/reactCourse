@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #007bff; /* Primary Bootstrap Blue */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  header .h4 {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  header form {
+    display: flex;
+    align-items: center;
+  }
+  
+  header input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 200px;
+  }
+  
+  header input[type="submit"] {
+    padding: 8px 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  header input[type="submit"]:hover {
+    background-color: orange;
+  }
+  
+  header span {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  header span:hover {
+    text-decoration: underline;
+  }
+  
+  /* Cart Button */
+  .bi-cart4 {
+    font-size: 24px;
+  }
+  
+  .badge {
+    font-size: 5px;
+    padding: 5px;
+  }
+  
+  /* Product Container */
+  .col-10 {
+   
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  /* Product Cards */
+  .col-10 div {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    margin:10px;
+    width:220px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .col-10 div:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Product Images */
+  .col-10 img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  .col-10 div div {
+    font-weight: bold;
+   
+  }
+  
